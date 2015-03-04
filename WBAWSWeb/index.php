@@ -11,8 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        testes
-        // put your cotde here
+            echo 'Bem Vindo';
         ?>
     </body>
 </html>
