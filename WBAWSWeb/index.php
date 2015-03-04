@@ -12,6 +12,7 @@ and open the template in the editor.
     <body>
         <?php
             echo 'Bem Vindo!!!';
+            echo "projeto AWS";
         ?>
     </body>
 </html>
