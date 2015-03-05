@@ -14,7 +14,7 @@ class dbConnection extends config{
     
     //Conectar (privado)
     private function Connect(){
-        $conn = new PDO("mysql:host=$this->host;dbname=$this->database",  $this->user, $this->pass);
+        $conn = new PDO("mysql:host=$this->host;dbname=$this->database",$this->user,$this->pass);
         return $conn;
     }
     
