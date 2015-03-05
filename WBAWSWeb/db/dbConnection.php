@@ -10,7 +10,7 @@ class dbConnection extends config{
     private $user = "root";
     private $pass = "root";
     private $host = "127.0.0.1";
-    private $database = "WBAWSWeb";
+    private $database = "DB_WBAWSWeb";
     
     //Conectar (privado)
     private function Connect(){
