@@ -7,10 +7,10 @@
 require 'config/config.php';
 class dbConnection extends config{
     
-    private $user = "wbservic_wbuser";
-    private $pass = "WInfn5zZaTRP";
-    private $host = "65.254.49.10";
-    private $database = "wbservic_DB_WBAWSWeb";
+    private $user = "wbuser";
+    private $pass = "wbuser123";
+    private $host = "107.170.49.223";
+    private $database = "DB_WBAWSWeb";
     
     //Conectar (privado)
     private function Connect(){
