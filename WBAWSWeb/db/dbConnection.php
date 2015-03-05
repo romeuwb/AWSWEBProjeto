@@ -7,9 +7,9 @@
 require 'config/config.php';
 class dbConnection extends config{
     
-    private $user = "root";
-    private $pass = "root";
-    private $host = "127.0.0.1";
+    private $user = "wbuser";
+    private $pass = "wbuser123";
+    private $host = "107.170.49.223";
     private $database = "DB_WBAWSWeb";
     
     //Conectar (privado)
