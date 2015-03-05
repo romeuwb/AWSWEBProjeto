@@ -12,4 +12,4 @@ $smarty->debugging = true;
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
-$smarty->display('./AWSWeb/about.html');
+$smarty->display('./template/about.html');
