@@ -13,20 +13,29 @@
 <!-- Custom CSS -->
 <link href="template/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <script src="template/js/jquery.min.js"></script>
+
+<script LANGUAGE="JavaScript"> 
+<!-- 
+function openPopUp(){ 
+window.open ("./login.php", 
+"mywindow","menubar=0,resizable=0,scrollbars=0,width=650,height=460"); 
+} 
+//--> 
+</script>
 </head>
 <body>
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="./index.php"><i class="fa fa-sun-o"></i> Colibri</a> </div>
+      <a class="navbar-brand" href="./index.php"><i class="fa fa-sun-o"></i> WB - AWS Soluções</a> </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="./index.php">Home</a></li>
         <li><a href="./sobre.php">Sobre</a></li>
         <li><a href="./servicos.php">Serviços</a></li>
         <li><a href="./contatos.php">Contatos</a></li>
-        <li><a href="#" onclick="window.open('./login.php', 'Pagina', 'STATUS=NO, TOOLBAR=NO, LOCATION=NO, DIRECTORIES=NO, RESISABLE=NO, SCROLLBARS=NO, TOP=10, LEFT=10, WIDTH=770, HEIGHT=500');">Login</a></li>
+        <li><a href="javascript: openPopUp()" alt="Login">Login</a></li>
       </ul>
     </div>
   </div>
